@@ -1,7 +1,7 @@
 html {
   height:99%;
   width:99%;
-  transform: translate(0%, 0%) skew(-45deg, 15deg) scaleX(.66667) scaleY(.66667);
+  /*transform: translate(0%, 0%) skew(-45deg, 15deg) scaleX(.66667) scaleY(.66667);*/
 }
 
 body {
