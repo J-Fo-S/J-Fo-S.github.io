@@ -6,7 +6,7 @@ html {
 body {
   height: 100%;
   width: 100%; 
-  background-image: linear-gradient(180deg, #444 02%, #fff, #444);
+  background-image: linear-gradient(270deg, #000 02%, #fff, #000);
   position: absolute;
   z-index: 1;
 }
@@ -26,7 +26,7 @@ body {
  padding: 2%;
  border: 0px solid #000;
  border-radius: 5%;
- background-image: linear-gradient(180deg, #444 2%, #fff, #444);
+ background-image: linear-gradient(180deg, #555 2%, #fff, #555);
  flex: 1 1 0;
  order: 1;
  }
@@ -35,7 +35,7 @@ body {
  margin: 2%;
  padding: 2%;
  border: 0px solid #aaa;
- background: #000;
+ background-image: linear-gradient(180deg, #fff 2%, #000, #fff);
  border-radius: 5%;
  flex: 3 1 0;
  order: 2;
