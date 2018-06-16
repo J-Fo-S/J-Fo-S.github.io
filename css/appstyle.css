@@ -1,12 +1,13 @@
 html {
   height:100%;
   width:100%;
+  transform: translate(0%, 0%) skew(45deg, -15deg) scaleX(.66667) scaleY(.66667);
 }
 
 body {
   height: 100%;
   width: 100%; 
-  background-image: linear-gradient(270deg, #000 02%, #fff, #000);
+  background-image: radial-gradient(circle at center, #fff 02%, #fff, #000);
   position: absolute;
   z-index: 1;
 }
@@ -26,7 +27,7 @@ body {
  padding: 2%;
  border: 0px solid #000;
  border-radius: 5%;
- background-image: linear-gradient(180deg, #555 2%, #fff, #555);
+ background-image: radial-gradient(circle at top right, #000 2%, #fff, #000);
  flex: 1 1 0;
  order: 1;
  }
@@ -35,7 +36,7 @@ body {
  margin: 2%;
  padding: 2%;
  border: 0px solid #aaa;
- background-image: linear-gradient(180deg, #fff 2%, #000, #fff);
+ background-image: radial-gradient(circle at bottom left, #fff 2%, #000, #fff);
  border-radius: 5%;
  flex: 3 1 0;
  order: 2;
@@ -52,6 +53,7 @@ body {
   min-width: 95%;
   border:0 -moz-border-radius: 2.5%;
   border-radius: 2.5%;
+  mix-blend-mode: difference;
   z-index: 1;
   } 
 
@@ -80,6 +82,10 @@ body {
   text-align: center;
   color: #fff;
   }
+
+ .img {
+  mix-blend-mode: difference;
+ }
 
   
 /* Too narrow to support three columns */
