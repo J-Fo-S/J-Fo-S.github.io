@@ -17,6 +17,8 @@ body {
  max-height: 98%;
  margin: 0px;
  padding: 0px;
+ border: 0px solid #000;
+ border-radius: 5% 5% 5% 5%;
  display: flex;
  flex-flow: row;
  opacity: 0.75; 
@@ -26,8 +28,7 @@ body {
  position:relative; 
  margin: 2%;
  padding: 2%;
- border: 0px solid #000;
- border-radius: 5%;
+ border-radius: initial;
  background-image: radial-gradient(circle at top right, #888 2%, #fff, #888);
  flex: 1 1 0;
  order: 1;
@@ -37,9 +38,8 @@ body {
  position:relative; 
  margin: 2%;
  padding: 2%;
- border: 0px solid #aaa;
+ border-radius: inherit;
  background-image: radial-gradient(circle at bottom left, #fff 2%, #000, #fff);
- border-radius: 5%;
  flex: 3 1 0;
  order: 2;
  overflow: scroll;
