@@ -30,6 +30,7 @@ body {
  padding: 2%;
  border-radius: initial;
  background-image: radial-gradient(circle at top right, #ff0 2%, #000, #fff);
+ box-shadow: 0px 0px 6px 6px rgba(255, 255, 0, .1);
  flex: 1 1 0;
  order: 1;
  }
@@ -40,6 +41,7 @@ body {
  padding: 2%;
  border-radius: inherit;
  background-image: radial-gradient(circle at bottom right, #ff0 2%, #000, #fff);
+ box-shadow: 0px 0px 6px 6px rgba(255, 255, 0, .1);
  flex: 3 1 0;
  order: 2;
  overflow: scroll;
