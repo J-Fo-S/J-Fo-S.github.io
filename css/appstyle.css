@@ -29,7 +29,7 @@ body {
  margin: 2%;
  padding: 2%;
  border-radius: initial;
- background-image: radial-gradient(circle at top right, #888 2%, #fff, #888);
+ background-image: radial-gradient(circle at top right, #ff0 2%, #000, #fff);
  flex: 1 1 0;
  order: 1;
  }
@@ -39,7 +39,7 @@ body {
  margin: 2%;
  padding: 2%;
  border-radius: inherit;
- background-image: radial-gradient(circle at bottom left, #fff 2%, #000, #fff);
+ background-image: radial-gradient(circle at bottom right, #ff0 2%, #000, #fff);
  flex: 3 1 0;
  order: 2;
  overflow: scroll;
