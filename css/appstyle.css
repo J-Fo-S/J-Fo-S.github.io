@@ -7,7 +7,7 @@ html {
 body {
   height: 99%;
   width: 99%; 
-  background-image: radial-gradient(circle at center, #fff 02%, #fff, #000);
+  background-image: radial-gradient(circle at center, #ff0 02%, #000, #000);
   position: absolute;
   z-index: 1;
 }
@@ -28,7 +28,7 @@ body {
  padding: 2%;
  border: 0px solid #000;
  border-radius: 5%;
- background-image: radial-gradient(circle at top right, #000 2%, #fff, #000);
+ background-image: radial-gradient(circle at top right, #888 2%, #fff, #888);
  flex: 1 1 0;
  order: 1;
  }
