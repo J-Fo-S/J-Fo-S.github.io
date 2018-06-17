@@ -29,10 +29,11 @@ body {
  margin: 2%;
  padding: 2%;
  border-radius: initial;
- background-image: radial-gradient(circle at top right, #ff0 2%, #000, #fff);
+ background-image: radial-gradient(circle at top right, #fff 2%, #ff0, #000);
  box-shadow: 0px 0px 6px 6px rgba(255, 255, 0, .1);
  flex: 1 1 0;
  order: 1;
+ overflow: scroll;
  }
 
 #main > article {
@@ -40,9 +41,9 @@ body {
  margin: 2%;
  padding: 2%;
  border-radius: inherit;
- background-image: radial-gradient(circle at bottom right, #ff0 2%, #000, #fff);
+ background-image: radial-gradient(circle at bottom right, #fff 2%, #000, #ff0);
  box-shadow: 0px 0px 6px 6px rgba(255, 255, 0, .1);
- flex: 3 1 0;
+ flex: 2 1 0;
  order: 2;
  overflow: scroll;
  }
@@ -93,21 +94,24 @@ body {
 
   
 /* Too narrow to support three columns */
-@media all and (max-width: 640px) {
+@media all and (max-width: 320px) {
 
  #main {
+  min-height: 50px;
+  max-height: 50px;
   flex-flow: column;
   flex-direction: column;
- }
-
- #main > article, #main > nav { 
   order: 0;
  }
 
- #main > nav, #main > header {
+ /*#main > article, #main > nav { 
+  order: 0;
+ }*/
+
+ /*#main > nav {
   min-height: 50px;
   max-height: 50px;
- }
+ }*/
 };
 
   
