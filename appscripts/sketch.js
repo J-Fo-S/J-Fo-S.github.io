@@ -1,10 +1,10 @@
 
 var w = 640;
 var h = 480;
-var xOff = 0;
+var xOff = 0.1;
 var yOff = 0.5;
-ratioX = Math.trunc(w/64);
-ratioY = Math.trunc(h/24);
+ratioX = Math.trunc(w*0.1);
+ratioY = Math.trunc(h*0.2);
 
 function setup() {
   //var contX = document.getElementById("frame0");
