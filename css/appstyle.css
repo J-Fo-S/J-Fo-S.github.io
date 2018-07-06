@@ -65,7 +65,7 @@ body {
  .font {
   font-family: Consolas, monaco, monospace;
   text-align: center;
-  font-size: 14px;
+  font-size: 24px;
   text-indent: 0%;
   color: #000;
   }
@@ -73,7 +73,7 @@ body {
   .font1 {
   font-family: Consolas, monaco, monospace;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   text-indent: 0%;
   color: #fff;
   }
