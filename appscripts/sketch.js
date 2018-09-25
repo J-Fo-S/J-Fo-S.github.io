@@ -1,6 +1,6 @@
 
-var w = 640;
-var h = 480;
+var w = 200;
+var h = 200;
 var xOff = 0.1;
 var yOff = 0.5;
 ratioX = Math.trunc(w*0.1);
@@ -10,13 +10,17 @@ function setup() {
   //var contX = document.getElementById("frame0");
   //console.log(contX);
   canvas =createCanvas(windowWidth, windowHeight);
-  w = windowWidth;
-  h = windowHeight;
+  //w = windowWidth;
+  //h = windowHeight;
+  
   background(255);
   noStroke();
   //frameRate(2);
 }
 function draw() {
+  w = windowWidth;
+  h = windowHeight;
+  console.log(w)
   var x = random(w);
   var y = random(h);
   var xw = random(10);
