@@ -18,9 +18,9 @@ function setup() {
   //frameRate(2);
 }
 function draw() {
-  w = windowWidth;
-  h = windowHeight;
-  console.log(w)
+  w = canvas.width;
+  h = canvas.height;
+  //console.log(canvas.width)
   var x = random(w);
   var y = random(h);
   var xw = random(10);
@@ -69,5 +69,5 @@ function windowResized() {
     ratioY = Math.trunc(h/24);
 	  }
   resizeCanvas(w, h);
-  img.resize(w, h);
+  //img.resize(w, h);
 }
